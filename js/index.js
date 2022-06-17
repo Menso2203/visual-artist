@@ -145,10 +145,10 @@ $(window).on('load', function() {
 });
 
 const topButton = document.querySelector(".Top-Button");
-const container = document.querySelector(".menu");
+const menu = document.querySelector(".menu");
 topButton.addEventListener('click', ()=> {
   console.log('test');
-  container.scrollTo({ top: 0, behavior: 'smooth' });
+  menu.scrollTo({ top: 0, behavior: 'smooth' });
 })
 
 // patch all methods
