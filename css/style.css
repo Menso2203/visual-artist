@@ -431,7 +431,7 @@ border: none;
 .InfoText {
   display: inline;
 	text-decoration: none;
-hyphens: none;
+  hyphens: none;
 	color: black;
 	font-size:16px;
 	text-align: left;
