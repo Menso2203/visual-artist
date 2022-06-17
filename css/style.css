@@ -592,14 +592,14 @@ transition: 1.15s; }
 
 
 /* Scroll to div */
-#Empty-Div {
+#Home-Page {
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
       transition: transform 0.6s ease-in-out;
       scroll-behavior: smooth;
 
  }
 
- #Empty-Div2 {
+ #HomePage {
    -webkit-transition: -webkit-transform 0.6s ease-in-out;
        transition: transform 0.6s ease-in-out;
        scroll-behavior: smooth;
@@ -1316,7 +1316,7 @@ element.style {
 @media only screen and (max-width: 568px) {
 
 
-  #Empty-Div {
+  #Home-Page {
     -webkit-transition: -webkit-transform 0.6s ease-in-out;
         transition: transform 0.6s ease-in-out;
         scroll-behavior: smooth;
