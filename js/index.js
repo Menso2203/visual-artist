@@ -145,10 +145,10 @@ $(window).on('load', function() {
 });
 
 const topButton = document.querySelector(".Top-Button");
-const menu = document.querySelector(".menu");
+const container = document.querySelector(".flex-Container-Button");
 topButton.addEventListener('click', ()=> {
   console.log('test');
-  menu.scrollTo({ top: 0, behavior: 'smooth' });
+  container.scrollTo({ top: 0, behavior: 'smooth' });
 })
 
 // patch all methods
