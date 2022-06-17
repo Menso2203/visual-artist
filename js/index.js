@@ -151,4 +151,14 @@ topButton.addEventListener('click', ()=> {
   container.scrollTo({ top: 0, behavior: 'smooth' });
 })
 
+// patch all methods
+seamless.polyfill();
+// or use specific methods
+seamless.scrollBy(window, { behavior: "smooth", top: 200, left: 0 });
+
+seamless.scrollIntoView(document.querySelector("#target"), {
+    behavior: "smooth",
+    block: "center",
+    inline: "center",
+});
 // INDEX STOP
