@@ -917,6 +917,7 @@ box-shadow:0px 0px 10px 1px rgb(0 0 0 / 24%);
 .image.lazyload,
 .image.lazyloading {
     opacity: 0;
+    transition: opacity 0.5s;
 
 }
 .image.lazyloaded {
