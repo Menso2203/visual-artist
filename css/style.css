@@ -251,10 +251,22 @@ border: none;
 /* Carousel Style */
 .flickity-button {
   display: none;
+
 }
 
 .flickity-page-dots {
-  display: none;
+  bottom: 25px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.flickity-page-dots {
+  display: ;
 }
 
 
@@ -1176,7 +1188,7 @@ element.style {
 .Page-Descriptions {
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: calc(1.33843vw + 19.71702px);
     line-height: 1.19;
 }
@@ -1324,6 +1336,12 @@ element.style {
         scroll-behavior: smooth;
    }
 
+   .flickity-page-dots .dot {
+     height: 4px;
+     width: 25px;
+     margin: 0;
+     border-radius: 0;
+   }
 
    p {
    text-decoration: none;
@@ -1399,7 +1417,10 @@ element.style {
 padding-top: 10px;
 }
 
+.cases__item-SMALL {
+    margin-bottom: -20px;
 
+}
 .footer__row{
  display: -webkit-box;
  display: -ms-flexbox;
@@ -1549,6 +1570,11 @@ padding-top: 10px;
   margin-bottom: -40px;
 }
 
+.flickity-page-dots {
+  bottom: 38px;
+}
+
+
 .cases._is_accent .cases__item,
 .cases._is_inhalf .cases__item {
   -webkit-box-sizing: border-box;
@@ -1579,6 +1605,7 @@ padding-top: 10px;
 	flex-wrap: wrap;
 	margin-bottom: -25px;
 }
+
 
 
 .footer{
